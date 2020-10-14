@@ -1,0 +1,270 @@
+/* my variables */
+:root{
+ --primary: #ddd;
+ --dark: #333;
+ --light: #fff;
+ --shadow: 0 1px 5px rgba(104, 104, 104,0.8);
+}
+/* end of variables  */
+
+html{
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ color: var(--dark);
+ 
+}
+body{
+ background: #ccc;
+ margin: 5px 20px;
+ line-height: 1.4;
+ 
+}
+image{
+ max-width: 100%;
+}
+/* this is the navbar section */
+/* this is the navbar section */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+ }
+ span{
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
+  font-size:   x-large;
+  color: rgb(14, 116, 157);
+  padding: 5px;
+ }
+ .main-header{
+ background: linear-gradient(rgb(208, 198, 198) ,rgb(255, 255, 255));
+  justify-content: center;
+  width: 100%;
+  height: 110px;
+ }
+ .header{
+  display: flex;
+  justify-content: center;
+  height: 85px;
+  width: 100%;
+ }
+ .header a{
+ text-decoration: none;
+ color: rgb(101, 99, 99);
+ }
+ .header a:hover{
+  color: black;
+ }
+ hr{
+  background-color: darkgray;
+ }
+ .logopicture{
+  padding: 10px;
+  margin: 10px;
+ }
+ .logopic{
+  border-radius: 2px;
+  height: 65px;
+  width: 65px;
+ }
+ .logoname{
+  color: rgb(64, 64, 64);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  border: 10px;
+  margin: 10px;
+ }
+ .home, .about, .contact, .blog{
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+ }
+
+
+.A1{
+ flex: 1;
+}
+.A1 a{
+ margin-left: 90px;
+ color: rgb(74, 65, 65);
+ text-align: center;
+ text-decoration: none;
+ padding: 20px;
+}
+ .A1 a:hover{
+  color:black;
+ 
+ }
+
+ .homepage-first{
+  height: 60vh;
+  display: flex;
+ justify-content:center;
+ 
+ }
+ .welcome-section{
+  background-image: url("/asset/image/conference5.jpg"), url("paper.gif");
+  background-color: #cccccc;
+flex: 80%;
+justify-content:center;
+text-align: center;
+ padding: 20px;
+ border: #fff solid;
+ border-bottom: #fff solid 10px;
+ }
+ span{
+  color: rgb(13, 64, 165);
+ }
+
+ .welcome-section h1 {
+margin-top: 50px;
+font-size: 30px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking{
+ background: #fff;
+flex: 25%;
+flex-direction: row;
+justify-content:center;
+ border: #fff solid;
+ border-bottom: #fff solid 10px;
+}
+.bokx1{
+ background: linear-gradient(rgb(208, 198, 198) ,rgb(255, 255, 255));
+ margin: 2px 2px;
+ height: 45%;
+ width: 95%;
+ padding: 5px;
+}
+
+h4 a {
+ text-decoration: none;
+ color: black;
+ padding-top: 10px;
+}
+.bokx1 h5{
+ text-align: center;
+ color: rgb(13, 64, 165);
+ padding: 5px;
+ font-size: large;
+}
+.bokx1 p{
+ align-content: center;
+ padding: 5px;
+ margin: 10px;
+}
+
+.bokx1 h4 {
+ width: 70px;
+ margin: 15px;
+ margin-left: 40%;
+ text-align: center;
+ background: linear-gradient(rgb(208, 198, 198) ,rgb(255, 255, 255));
+ border-radius: 2px;
+ padding-top: 10px;
+}
+
+h4 a:hover{
+ color:black;
+ background-color: #cccccc;
+}
+
+/* end of the navbar section */
+/* end of the navbar section */
+.event1{
+ background: linear-gradient(rgb(208, 198, 198) ,rgb(255, 255, 255));
+  width: 300px;
+ align-content: center;
+ display: flex;
+ flex-direction: column;
+ margin: 10px
+
+
+
+}
+.event1 img{
+ padding: 5px;
+ margin-left: 20%;
+ height: 70px;
+ width: 70px;
+ border-radius: 50%;
+}
+.event1 p {
+ text-align: center;
+ padding: 5px;
+ width: 180px;
+ height: 180px;
+}
+.event{
+ display: flex;
+ border: #cccc;
+ 
+}
+
+/* this is the css style for the positioning of the s */
+/* this is the css style for the positioning of the s */
+/* about page  */
+
+
+.p-container{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 700px;
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+.p-header{
+height: 100px;
+border: #333 solid;
+}
+.p-footer{
+height: 100px;
+border: #333 solid;
+}
+.p-section{
+  display: flex;
+height: 400px;
+}
+.p-aside{
+  flex: 1;
+  border: #333 solid;
+}
+.p-section1{
+  flex: 3;
+  border: #333 solid;
+}
+.p-article{
+  width: 200px;
+  height: 200px;
+  border: solid;
+  margin: 0 auto;
+  padding: px;
+}
+p{
+padding-top: 40px;
+  text-align: center;
+}
